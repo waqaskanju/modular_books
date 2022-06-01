@@ -4,8 +4,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Modular Awsome Books</title>
+  <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+  <nav  id="navigation">
+    <a href="index.html">Awesome Books</a>
+    <ul>
+      <li><a href="#" id="list-link">List</a></li>
+      <li><a href="#" id="add-link">Add</a></li>
+      <li><a href="#" id="contact-link">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="date" class="white"></div>
+  <div class="wrapper">
+    <section id="all-books" class="hide-class">
+      <h1 class="white">All Books</h1>
+      <!-- Dynamic Section -->
+      <section id="book-list">
+      </section>
+      <hr>
+    </section>
+    <section id="add-new-book" class="hide-class">
+      <h2 class="white">Add New Book</h2>
+      <form id="new-book">
+        <input type="text" name="title" id="book-name" placeholder="Title">
+        <input type="text" name="author" id="author-name" placeholder="Author">
+        <div><button type="submit" id="add-book">Add</button></div>
+      </form>
+    </section>
+
+    <section id="contact" class="hide-class white">
+      <h2>Contact Information</h2>
+      <p>Do you have any questions or just want to say "Hello"? You can reach out to us!</p>
+      <ul>
+        <li>Our email <a href="mailto:mail@mail.com">mail@mail.com</a>.</li>
+        <li>Our phone number <a href="tel:+18005551234">+1 800 5551235</a>.</li>
+        <li>Our address: Main St 1234, 54321 City, Country.</li>
+      </ul>
+    </section>
+  </div>
+  <footer>
+    <p class="white">&copy;Copyright 2022. All rights reserved.</p>
+  </footer>
+  <script type="module" src="./index.js" ></script>
 </body>
 </html>
