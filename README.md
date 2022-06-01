@@ -14,7 +14,7 @@ Sample Repo
 
 # Live Demo
 
-(https://waqaskanju.github.io/modularbooks)
+(https://waqaskanju.github.io/)
 
 ## Getting Started
 
