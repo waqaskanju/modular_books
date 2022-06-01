@@ -1,4 +1,6 @@
 # .gitignore
 node_modules/
-.github/
+.hintrc
+.eslintrc.json
+.stylelintrc.json
 
