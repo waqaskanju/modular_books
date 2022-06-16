@@ -1,6 +1,6 @@
 # Sample Book Link
 
-This Repo is for creating books repository.
+This Repo is for creating books repository. This repo contain a library app. Which add and delete books using modules in JavaScript. Item are managed in local storage. It was one of the task in MIcroverse Curriculum
 
 ## Built With
 
